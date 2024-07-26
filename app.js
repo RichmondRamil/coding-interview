@@ -40,7 +40,7 @@ console.log(categorize)
 // API-Key to use: ccCBd7oOPGXnF/Byo9+rUw==FrPn9rqGncHCgE4u
 
 app.get('/animal/', async (req, res) => {
-  // forgot to destructure the value from the query params , it should be {name}
+  //* forgot to destructure the value from the query params , it should be {name
   const name = req.query
   console.log(name)
   try {
