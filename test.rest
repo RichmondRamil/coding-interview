@@ -1,0 +1,2 @@
+### GET ANIMALS
+GET http://localhost:3000/v1/animals?name=fox
