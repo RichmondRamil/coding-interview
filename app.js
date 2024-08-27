@@ -45,7 +45,7 @@ app.use("/v1/animals", (req, res) => {
             },
         }).then(async (response) => {
             // when response.status is 400, respond with error message
-            if (response.status == 400) {
+            if (!response.ok) {
                 return res.status(400).send({
                     message: "Bad request",
                 });
